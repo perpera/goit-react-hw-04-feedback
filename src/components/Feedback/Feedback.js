@@ -5,10 +5,6 @@ import { Statistics } from 'components/Statistics/Statistics';
 import { Section } from 'components/Section/Section';
 import { Notification } from 'components/Notification/Notification';
 
-export const Button = ({ onUpdate, value }) => {
-  return <button onClick={onUpdate}>{value}</button>;
-};
-
 export const Feedback = () => {
   const [feedback, setFeedback] = useState({
     good: 0,
